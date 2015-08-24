@@ -24,3 +24,7 @@ gredux [options]
 
 - `-skip-install` : Skip executing `npm install`
 
+## Reference
+
+https://github.com/WithGJR/gflux
+

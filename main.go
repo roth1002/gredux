@@ -20,7 +20,7 @@ func main() {
 	fmt.Printf("--- Welcome to use this Flux Generator ---\n\n")
 	fmt.Println("What is your App Name ?")
 	appName, _ := reader.ReadString('\n')
-	//The string read from reader.ReadString() contains one '\n' character, so takes out this character is necessary
+
 	appName = appName[:len(appName)-1]
 	g.SetName(appName)
 
