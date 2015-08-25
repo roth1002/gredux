@@ -181,10 +181,9 @@ const containerRootContent string = "" +
 import App from './App';
 import { createStore, combineReducers } from 'redux';
 import { Provider } from 'react-redux';
-import * as reducers from '../reducers';
+import reducers from '../reducers';
 
-const reducer = combineReducers(reducers);
-const store = createStore(reducer);
+const store = createStore(reducers);
 
 export default class Root extends Component {
   render() {
